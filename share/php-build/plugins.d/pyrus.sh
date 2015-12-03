@@ -7,7 +7,7 @@ download_pyrus() {
     local pyrus_url="$1"
 
     if [ -z "$pyrus_url" ]; then
-        pyrus_url="http://pear2.php.net/pyrus.phar"
+        pyrus_url="https://s3-eu-west-1.amazonaws.com/scrutinizer-static/pyrus.phar"
     fi
 
     log "Pyrus" "Downloading from $pyrus_url"

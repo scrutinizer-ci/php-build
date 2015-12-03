@@ -1,0 +1,4 @@
+install_package "https://github.com/php/php-src/archive/php-7.0.0.tar.gz"
+install_pyrus
+install_xdebug_master
+enable_builtin_opcache
