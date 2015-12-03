@@ -1,4 +1,4 @@
-install_package "http://de1.php.net/get/php-7.0.0.tar.gz/from/this/mirror"
+install_package "https://secure.php.net/distributions/php-7.0.0.tar.bz2"
 install_pyrus
 install_xdebug_master
 enable_builtin_opcache
